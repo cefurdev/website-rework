@@ -1,0 +1,51 @@
+.naslov {
+    margin: 0px;
+    padding: 0px;
+}
+.lasbaher_opis{
+    width: 30%;
+    height: auto;
+}
+
+h1{
+  text-shadow: 2px 2px 2px white;
+}
+h2{
+  text-shadow: 2px 2px 2px white;
+}
+
+p{
+  text-shadow: 2px 2px 2px white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 7px solid black;
+  } 
+li {
+    float: left;
+    border-right: 1px solid white;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: #111;
+  }
+
+body{
+  background-image: url(TOM.png);
+  background-size: cover;
+  background-size: 30%;
+}
+div p{
+  font-size: large;
+}

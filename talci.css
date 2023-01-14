@@ -1,0 +1,53 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 7px solid black;
+  } 
+li {
+    float: left;
+    border-right: 1px solid white;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: #111;
+  }
+
+body{
+    background-image: url(bozo-rest-in-piss.gif);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,calc(25% - 50px));
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 50px;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+
+.hostage{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-shadow: 4px 4px 10px red;
+
+}
+
+.hostage img{
+    max-width: 100%;
+}
+h1{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
